@@ -1,0 +1,11 @@
+package org.first inspires.ftc.teamcode.*****; // ****** can be interchanged
+
+public class ****** { // ****** also can be interchanged
+  private Dcmotor motor; // the name should be specificed 
+
+  public void init(HardwareMap hwMap) {
+
+  motor = hwMap.get(DcMotor.class, deviceName "motor");
+  motor.setMode(DcMotor.RunMode.****)
+
+  
